@@ -1,0 +1,296 @@
+body{
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+ }
+ #container{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: ;
+ }
+ 
+ 
+#nav-cont{
+ background: #34495E;
+ position: relative;
+ max-width: 1000px;
+ margin: 0 auto;
+ height: 100px;
+}#nav-cont #title{
+ position: absolute;
+ top: 20;
+ left: 20;
+ 
+ margin: 0;
+ padding: 0;
+}#nav-cont #title h1{
+ font-size: 20px;
+ color: white;
+ text-shadow: ;
+ margin: 0;
+ padding: 0;
+}#nav-cont #title h1 span{
+ margin: 0;padding: 0;
+ animation: ;
+}
+
+#nav-cont #navigator{
+position: relative;
+}#nav-cont #navigator #nav-btns{
+ position: relative;
+}#nav-cont #navigator #nav-btns #menu-btn{
+ position: absolute;
+ top: 30;
+ right: 20;
+ display: ;
+ 
+ background: none;
+ border: 0px;
+}#nav-cont #navigator #nav-btns #menu-btn svg{
+ font-size: 35px;
+}
+#nav-cont #navigator #nav-btns #cancel-btn{
+ position: absolute;
+ top: 30;
+ right: 20;
+ display: none;
+ 
+ background: none;
+ border: 0px;
+}#nav-cont #navigator #nav-btns #cancel-btn svg{
+ font-size: 35px;
+}
+
+
+
+
+
+
+#pop{
+    background: #34495E;
+    margin: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: none;/*js will open*/
+   }#pop a{
+    text-decoration: none;
+    color: none;
+   }#pop a button{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    max-width: 200px;
+    text-align: ;
+    background: none;
+    color: white;
+    outline: none;
+    height: 30px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px solid white;
+    border-top: 0.1px solid white;
+   }
+   
+   
+   
+   
+   #head{
+   width: 100%;
+   max-width: 1000px;
+   margin: 0 auto;
+   }#head img{
+   width: 100%;
+   }
+   
+   
+   
+   
+   
+ #top-nav{
+ background: #34495E;
+ max-width: 1000px;
+ margin: 0 auto;
+ padding: 10;
+ position: sticky;
+ top: ;
+ 
+ display: flex;
+ justify-content: space-around;
+ }#top-nav button{
+ background: none;
+ border: 0px;
+ outline: none;
+ }#top-nav button svg{
+ font-size: 35px;
+ }
+ 
+ 
+ 
+main{
+width: 100%;
+max-width: 900px;
+margin: 0 auto;
+display: ;
+max-width: 1000px;
+margin: 0 auto;
+position: ;
+}
+
+
+
+
+
+
+
+#video-frame{
+   display: flex;
+   overflow: auto;
+   margin: 0;
+   padding: 0;
+  }#video-show{
+   width: 100%;
+   border: 1px solid gray;
+   margin: 5;
+   padding: 5;
+   background: black;
+   border-radius: 20px;
+  }#video-show video{
+   margin: 0;
+   padding: 0;
+  }#video-show em{
+   color: gray;
+   font-size: 10px;
+   padding: 0;
+   margin: 0;
+  }#video-show #btns{
+   display: flex;
+   justify-content: space-around;
+   
+  }#video-show #btns button{
+   background: none;
+   border: 0px;
+   color: white;
+  }#video-show #btns button svg{
+   font-size: 25px;
+  }
+  
+  
+  
+
+
+#video-wrapping{
+width: 100%;
+max-width: 900px;
+margin: 0 auto;
+}#video-wrapping #video_wrape_cont{
+ max-width: 900px;
+ margin: 0 auto;
+ background: ghostwhite;
+ border-bottom: 0px solid black;
+ border: 1px solid #f4f4f4;
+ box-shadow: 5px 5px 5px black;
+ border-radius: 50px;
+ padding: 10;
+ margin: 10;
+
+}#video-wrapping #video_wrape_cont video{
+ width: 100%;
+ height: 350px;
+}#video-wrapping #video_wrape_cont #deta{
+ margin: 5;
+ padding: 5;
+ display: ;
+ 
+}#video-wrapping #video_wrape_cont #deta img{
+ width: 10%;
+ border-radius: 50%;
+}#video-wrapping #video_wrape_cont #deta b{
+ font-size: 15px;
+ margin: 0;
+ padding: 0;
+}#video-wrapping #video_wrape_cont #deta p{
+ font-size: 10px;
+ color: gray;
+}#video_wrape_cont #btns{
+ display: flex;
+ justify-content: space-evenly;
+}#video_wrape_cont #btns button{
+ background: none;
+ border: 0px;
+}#video_wrape_cont #btns button svg{
+ font-size: 30px;
+}
+
+
+
+
+
+#bottom-nav{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  background: #f4f4f4;
+  position: sticky;
+  bottom: 0;
+  padding: 10;
+  font-size: 10px;
+  
+  max-width: 800px;
+  margin: 0 auto;
+ }#bottom-nav a{
+  text-decoration: none;
+  color: black;
+ }#bottom-nav a #home{
+ 
+ }#bottom-nav a #home svg{
+  font-size: 20px;
+ }
+ 
+ #bottom-nav a #about{
+ 
+ }#bottom-nav a #about svg{
+  font-size: 20px;
+ }
+ 
+ #bottom-nav a #contact{
+ 
+ }#bottom-nav a #contact svg{
+  font-size: 20px;
+ }
+
+
+
+
+
+footer{
+  background: #34495E;
+  padding: 20px;
+  border-top: 1px solid gray;
+ }footer a{
+  text-decoration: none;
+ }footer button{
+  background: none;
+  border: 0px;
+  color: white;
+  outline: none;
+ }footer form{
+ 
+ }footer form input{
+  border-radius: 5px;
+  border: 1px solid white;
+  height: 40px;
+  outline: none;
+  margin-bottom: 5;
+ }footer form #send{
+  background: green;
+  height: 30px;
+  outline: none;
+  border-radius: 5px;
+ }
+ 
+ 
+ 
+ 
